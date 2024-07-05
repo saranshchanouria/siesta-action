@@ -27,7 +27,7 @@ runs:
       
     - name: Install Siesta
       run: |
-        git clone https://gitlab.com/siesta-project/siesta.git
+        git clone https://gitlab.com/siesta-project/siesta/-/tree/5.0.0-alpha?ref_type=tags
         cd siesta/Obj/
         mv gfortran.make arch.make
         sh ../Src/obj_setup.sh
